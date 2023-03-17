@@ -1,4 +1,4 @@
-## API Endpoints
+## Core app: API Endpoints
 
 The following API endpoints are provided by the application:
 
@@ -108,6 +108,6 @@ The application uses Redis as a message broker for Celery tasks.
 
 ## Conclusion
 
-In this technical challenge, we have built a Django application that provides REST API endpoints for making and tracking reservations. The application uses Redis and Celery to handle the background tasks associated with making reservations, and it includes error handling, data validation, and documentation for its API endpoints.
+In this technical challenge, we have built a Django application that provides REST API endpoints for making and tracking reservations and full user authentication. The application uses Redis and Celery to handle the background tasks associated with making reservations, and it includes error handling, data validation, and documentation for its API endpoints.
 
 This implementation can be further enhanced with additional features, such as user authentication and authorization, support for multiple languages, and more detailed reporting and analytics capabilities. However, as a starting point, this implementation provides a solid foundation for building a robust and scalable reservation system that can be used by multiple listings.
